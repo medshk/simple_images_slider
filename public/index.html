@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Test</title>
+    <link rel="stylesheet" href="/public/slider.css">
+</head>
+<body>
+    <h1> Slider </h1>
+
+    <!-- this html block is required for slider to work -->
+    <div class="slider">
+
+        <div class="slider__box">
+
+            <!-- slider images go here ! -->
+            <div class="slider__image">
+                <img src="/public/images/jugger.jpg" alt="juggernaut">
+            </div>
+            <div class="slider__image">
+                <img src="/public/images/lina.jpg" alt="lina">
+            </div>
+            <div class="slider__image">
+                <img src="/public/images/jugger.jpg" alt="juggernaut">
+            </div>
+            <div class="slider__image">
+                <img src="/public/images/jugger.jpg" alt="juggernaut">
+            </div>
+            <div class="slider__image">
+                <img src="/public/images/jugger.jpg" alt="juggernaut">
+            </div>
+            <div class="slider__image">
+                <img src="/public/images/jugger.jpg" alt="juggernaut">
+            </div>
+            <div class="slider__image">
+                <img src="/public/images/jugger.jpg" alt="juggernaut">
+            </div>
+            <div class="slider__image">
+                <img src="/public/images/jugger.jpg" alt="juggernaut">
+            </div>
+        </div>
+
+     
+    </div>
+
+
+    <script src="/src/slider.js"></script>
+    <script>
+        const config = {
+            imagesGap : "32px",
+            imageWidth : "400px"
+        }
+        const slider = new Slider(config)
+        
+    </script>
+</body>
+</html>
